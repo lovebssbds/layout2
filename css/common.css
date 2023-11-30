@@ -253,7 +253,12 @@ footer{
 .copyr{
     width:80%;
     max-width: 1000px;
-    align-self: center;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+}
+.copyr p{
+    width:100%;
     text-align: center;
 }
 .sns-fam{
@@ -277,10 +282,14 @@ footer{
     width:100%;
 }
 .fam{
-    padding-top: 10px;
+    width:100%;
+    padding-top: 20px;
 }
-.fam a{
-    display: block;
+select{
+    width:100%;
+    /* border:1px solid black; */
+}
+ option{
     width:100%;
     padding:2px;
 }
